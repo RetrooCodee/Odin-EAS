@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!--ENCABEZADO-->
+
+    <header class="encabezado">
+        <h1>Etch-a-Sketch</h1>
+    </header>
+
+    <!-- CONTENIDO -->
+    <main class="contenido">
+    
+        <!-- BOTON MODIFICAR Y VENTANA MODAL DE MODIFICACION DE CUADRICULA-->
+        <button class="modificar"> Modificar Cuadricula </button>
+        </div>
+        <dialog id="modalCuadricula">
+            <h5>Modificar Cuadricula</h5>
+            <form method="dialog">
+                <label for="numero"> Ingresa el numero de cuadros por lado que deseas </label>
+                <input type="number" name="numero" id="numero" value="16" max="100" min="1">
+                <div>
+                    <button id="Confirmar"> Confirmar </button>
+                    <button id="Cancelar"> Cancelar </button>
+                </div>
+            </form>
+        </dialog>
+
+        <!--CONTENEDOR DE CUADRICULA-->
+        <div class="contenedor"> </div>
+    </main>
+    
+    <footer>
+        <H6> Codificado por RetrooCodee</H6>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
